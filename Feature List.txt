@@ -1,9 +1,0 @@
-Features:
-(Can you put this list on github?)
-
-- Provide access to premium videos using authentication
-- Allow users to save videos for offline viewing
-- Use live stream API to notify users when live streams are occuring
-	http://www.giantbomb.com/forums/api-developers-3017/new-api-endpoints-for-video-1808225/#0
-- Video saved progress for third party apps
-	http://www.giantbomb.com/forums/api-developers-3017/new-api-endpoints-for-video-1808225/#0
