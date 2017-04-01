@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]
