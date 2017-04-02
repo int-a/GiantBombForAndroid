@@ -12,15 +12,15 @@ import dagger.Provides;
  */
 @Module
 public class AppModule {
-    Application mApplication;
+    Application application;
 
-    public AppModule(Application mApplication){
-        this.mApplication = mApplication;
+    public AppModule(Application application){
+        this.application = application;
     }
 
     @Provides
     @Singleton
     Application provideApplication(){
-        return mApplication;
+        return application;
     }
 }

@@ -34,14 +34,14 @@ public class NetModule {
     // Maybe one day this will be a view object to contain a video?
     // Maybe it will become a dependency and will be injected via
     // another module? Let Dagger find a view object and create it
-    String mBaseUrl;
+    String baseUrl;
 
     private final String LOG_TAG = NetModule.class.getSimpleName();
     private String apiKey;
 
-    public NetModule(String mBaseUrl){
-        this.mBaseUrl = mBaseUrl;
-        Log.d(LOG_TAG, "Base URL: " + mBaseUrl);
+    public NetModule(String baseUrl){
+        this.baseUrl = baseUrl;
+        Log.d(LOG_TAG, "Base URL: " + baseUrl);
     }
 
     @Provides
@@ -108,7 +108,7 @@ public class NetModule {
         Retrofit retrofit = new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .baseUrl(mBaseUrl)
+                .baseUrl(baseUrl)
                 .client(okHttpClient)
                 .build();
         return retrofit;

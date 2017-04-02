@@ -13,20 +13,20 @@ import com.app.int_a.giantbombforandroid.main.data.module.NetModule;
 
 public class App extends Application {
 
-    private NetComponent mNetComponent;
+    private NetComponent netComponent;
 
     @Override
     public void onCreate(){
         super.onCreate();
 
-        mNetComponent = DaggerNetComponent.builder()
+        netComponent = DaggerNetComponent.builder()
                 .appModule(new AppModule(this))
                 //.netModule(new NetModule("http://jsonplaceholder.typicode.com/"))
                 .netModule(new NetModule("http://www.giantbomb.com/"))
                 .build();
     }
 
-    public NetComponent getmNetComponent(){
-        return mNetComponent;
+    public NetComponent getNetComponent(){
+        return netComponent;
     }
 }

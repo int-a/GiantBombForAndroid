@@ -2,7 +2,6 @@ package com.app.int_a.giantbombforandroid.main.mainscreen;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.ArrayAdapter;
@@ -11,14 +10,11 @@ import android.widget.Toast;
 
 import com.app.int_a.giantbombforandroid.R;
 import com.app.int_a.giantbombforandroid.main.App;
-import com.app.int_a.giantbombforandroid.main.model.Post;
 import com.app.int_a.giantbombforandroid.main.data.component.DaggerMainScreenComponent;
 import com.app.int_a.giantbombforandroid.main.data.module.MainScreenModule;
-import com.app.int_a.giantbombforandroid.main.model.Result;
 import com.app.int_a.giantbombforandroid.main.model.Video;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import javax.inject.Inject;
 
@@ -31,9 +27,9 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
     ArrayAdapter<String> adapter;
 
     // Objects for RecyclerView
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter recyclerAdapter;
+    private RecyclerView.LayoutManager recyclerLayoutManager;
 
     @Inject
     MainScreenPresenter mainPresenter;
@@ -46,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
         list = new ArrayList<>();
 
         DaggerMainScreenComponent.builder()
-                .netComponent(((App) getApplicationContext()).getmNetComponent())
+                .netComponent(((App) getApplicationContext()).getNetComponent())
                 .mainScreenModule(new MainScreenModule(this))
                 .build().inject(this);
 

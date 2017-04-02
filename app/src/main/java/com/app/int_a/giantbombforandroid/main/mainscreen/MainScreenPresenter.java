@@ -22,12 +22,12 @@ import rx.schedulers.Schedulers;
 public class MainScreenPresenter implements MainScreenContract.Presenter {
 
     Retrofit retrofit;
-    MainScreenContract.View mView;
+    MainScreenContract.View view;
 
     @Inject
-    public MainScreenPresenter(Retrofit retrofit, MainScreenContract.View mView){
+    public MainScreenPresenter(Retrofit retrofit, MainScreenContract.View view){
         this.retrofit = retrofit;
-        this.mView = mView;
+        this.view = view;
     }
 
 
@@ -39,17 +39,17 @@ public class MainScreenPresenter implements MainScreenContract.Presenter {
                 .subscribe(new Observer<Video>(){
                     @Override
                     public void onCompleted(){
-                        mView.showComplete();
+                        view.showComplete();
                     }
 
                     @Override
                     public void onError(Throwable e){
-                        mView.showError(e.getMessage());
+                        view.showError(e.getMessage());
                     }
 
                     @Override
                     public void onNext(Video video){
-                        mView.showVideos(video);
+                        view.showVideos(video);
                     }
                 });
     }

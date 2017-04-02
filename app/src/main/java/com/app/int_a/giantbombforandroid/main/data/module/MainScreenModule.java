@@ -13,15 +13,15 @@ import dagger.Provides;
 @Module
 public class MainScreenModule {
 
-    private final MainScreenContract.View mView;
+    private final MainScreenContract.View view;
 
-    public MainScreenModule(MainScreenContract.View mView){
-        this.mView = mView;
+    public MainScreenModule(MainScreenContract.View view){
+        this.view = view;
     }
 
     @Provides
     @CustomScope
     MainScreenContract.View providesMainScreenContractView(){
-        return mView;
+        return view;
     }
 }
