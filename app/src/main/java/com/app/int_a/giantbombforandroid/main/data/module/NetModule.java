@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
+import com.app.int_a.giantbombforandroid.BuildConfig;
 import com.app.int_a.giantbombforandroid.R;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
@@ -37,7 +38,6 @@ public class NetModule {
     String baseUrl;
 
     private final String LOG_TAG = NetModule.class.getSimpleName();
-    private String apiKey;
 
     public NetModule(String baseUrl){
         this.baseUrl = baseUrl;
@@ -56,8 +56,6 @@ public class NetModule {
         int cacheSize = 10 * 1024 * 1024;
         Cache cache = new Cache(application.getCacheDir(), cacheSize);
 
-        // Get api key from application context
-        apiKey = application.getString(R.string.giant_bomb_api_key);
         return cache;
     }
 
@@ -84,7 +82,7 @@ public class NetModule {
                 HttpUrl originalHttpUrl = original.url();
 
                 HttpUrl url = originalHttpUrl.newBuilder()
-                        .addQueryParameter("api_key", apiKey)
+                        .addQueryParameter("api_key", BuildConfig.GIANTBOMB_API_KEY)
                         .addQueryParameter("format","json")
                         .build();
 
