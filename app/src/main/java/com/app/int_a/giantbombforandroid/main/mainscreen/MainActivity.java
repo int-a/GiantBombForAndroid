@@ -18,9 +18,9 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
-public class MainActivity extends AppCompatActivity implements MainScreenContract.View {
+import timber.log.Timber;
 
-    private final String LOG_TAG = MainActivity.class.getSimpleName();
+public class MainActivity extends AppCompatActivity implements MainScreenContract.View {
 
     ListView listView;
     ArrayList<String> list;
@@ -38,6 +38,17 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Timber.plant(new Timber.DebugTree() {
+            // Add the line number to the tag
+            @Override
+            protected String createStackElementTag(StackTraceElement element) {
+                return super.createStackElementTag(element) + ':' + element.getLineNumber();
+            }
+        });
+
+        Timber.d("wassup, testing Timber loggin");
+
         listView = (ListView) findViewById(R.id.my_list);
         list = new ArrayList<>();
 
@@ -58,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
             // TODO: add second for loop, or simplyfy and get rid of Video object
             list.add(video.getResults().get(i).getSiteDetailUrl());
             //list.add(video.get(i).getSiteDetailUrl());
-            Log.d(LOG_TAG, "List item " + i + " = " + list.get(i));
+            Timber.d("List item " + i + " = " + list.get(i));
         }
 
 
@@ -71,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
     public void showError(String message){
         // Show error message text as a Toast message
         Toast.makeText(getApplicationContext(), "Error" + message, Toast.LENGTH_SHORT).show();
-        Log.e(LOG_TAG, "Error: " + message);
+        Timber.e("Error: " + message);
     }
 
     @Override
