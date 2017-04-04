@@ -47,8 +47,6 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
             }
         });
 
-        Timber.d("wassup, testing Timber loggin");
-
         listView = (ListView) findViewById(R.id.my_list);
         list = new ArrayList<>();
 

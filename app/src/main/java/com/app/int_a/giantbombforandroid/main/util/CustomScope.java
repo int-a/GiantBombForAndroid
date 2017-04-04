@@ -14,4 +14,6 @@ import javax.inject.Scope;
 @Scope
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CustomScope {
+
+    // TODO: rename this scope to something more meaningful
 }

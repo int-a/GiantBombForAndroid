@@ -7,6 +7,7 @@ import android.util.Log;
 
 import com.app.int_a.giantbombforandroid.BuildConfig;
 import com.app.int_a.giantbombforandroid.R;
+import com.app.int_a.giantbombforandroid.main.Constants;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -36,12 +37,10 @@ public class NetModule {
     // Maybe one day this will be a view object to contain a video?
     // Maybe it will become a dependency and will be injected via
     // another module? Let Dagger find a view object and create it
-    String baseUrl;
 
 
     public NetModule(String baseUrl){
-        this.baseUrl = baseUrl;
-        Timber.d("Base URL: " + baseUrl);
+
     }
 
     @Provides
@@ -106,7 +105,7 @@ public class NetModule {
         Retrofit retrofit = new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .baseUrl(baseUrl)
+                .baseUrl(Constants.BASE_URL)
                 .client(okHttpClient)
                 .build();
         return retrofit;
