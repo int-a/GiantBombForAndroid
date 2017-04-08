@@ -39,8 +39,7 @@ public class NetModule {
     // another module? Let Dagger find a view object and create it
 
 
-    public NetModule(String baseUrl){
-
+    public NetModule(){
     }
 
     @Provides

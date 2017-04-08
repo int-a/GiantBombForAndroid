@@ -22,7 +22,7 @@ public class App extends Application {
         netComponent = DaggerNetComponent.builder()
                 .appModule(new AppModule(this))
                 //.netModule(new NetModule("http://jsonplaceholder.typicode.com/"))
-                .netModule(new NetModule("http://www.giantbomb.com/"))
+                .netModule(new NetModule())
                 .build();
     }
 

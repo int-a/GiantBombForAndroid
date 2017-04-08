@@ -2014,6 +2014,8 @@ containing a value of this type.
         public static final int bottom=0x7f0b0023;
         public static final int buttonPanel=0x7f0b002f;
         public static final int cancel_action=0x7f0b005d;
+        public static final int card_list=0x7f0b0071;
+        public static final int card_view=0x7f0b0070;
         public static final int checkbox=0x7f0b003f;
         public static final int chronometer=0x7f0b0065;
         public static final int collapseActionView=0x7f0b001f;
@@ -2043,7 +2045,7 @@ containing a value of this type.
         public static final int media_actions=0x7f0b005f;
         public static final int middle=0x7f0b001d;
         public static final int multiply=0x7f0b0015;
-        public static final int my_list=0x7f0b0058;
+        public static final int my_recycler_list=0x7f0b0058;
         public static final int never=0x7f0b0021;
         public static final int none=0x7f0b000f;
         public static final int normal=0x7f0b000b;
@@ -2088,6 +2090,7 @@ containing a value of this type.
         public static final int text2=0x7f0b006c;
         public static final int textSpacerNoButtons=0x7f0b0036;
         public static final int textSpacerNoTitle=0x7f0b0035;
+        public static final int thumbnail=0x7f0b0072;
         public static final int time=0x7f0b0064;
         public static final int title=0x7f0b002e;
         public static final int titleDividerNoCustom=0x7f0b003d;
@@ -2096,6 +2099,7 @@ containing a value of this type.
         public static final int topPanel=0x7f0b003a;
         public static final int up=0x7f0b0009;
         public static final int useLogo=0x7f0b0013;
+        public static final int video_title_view=0x7f0b0073;
         public static final int withText=0x7f0b0022;
         public static final int wrap_content=0x7f0b001a;
     }
@@ -2153,6 +2157,7 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f04002c;
         public static final int select_dialog_singlechoice_material=0x7f04002d;
         public static final int support_simple_spinner_dropdown_item=0x7f04002e;
+        public static final int thumbnail_view=0x7f04002f;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -2194,6 +2199,7 @@ containing a value of this type.
         public static final int base_url=0x7f060023;
         public static final int search_menu_title=0x7f060013;
         public static final int status_bar_notification_info_overflow=0x7f060014;
+        public static final int video_thumbnail_description=0x7f060024;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0800a0;

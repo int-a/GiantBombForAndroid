@@ -10,9 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.app.int_a.giantbombforandroid.main.mainscreen.MainActivity">
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_list"
+        android:scrollbars="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/my_list">
-    </ListView>
+        android:layout_height="match_parent"/>
 </RelativeLayout>

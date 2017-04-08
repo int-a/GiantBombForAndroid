@@ -80,7 +80,7 @@ public final class DaggerNetComponent implements NetComponent {
 
     public NetComponent build() {
       if (netModule == null) {
-        throw new IllegalStateException(NetModule.class.getCanonicalName() + " must be set");
+        this.netModule = new NetModule();
       }
       if (appModule == null) {
         throw new IllegalStateException(AppModule.class.getCanonicalName() + " must be set");

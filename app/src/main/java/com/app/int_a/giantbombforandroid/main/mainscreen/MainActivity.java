@@ -2,6 +2,8 @@ package com.app.int_a.giantbombforandroid.main.mainscreen;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.ArrayAdapter;
@@ -12,6 +14,7 @@ import com.app.int_a.giantbombforandroid.R;
 import com.app.int_a.giantbombforandroid.main.App;
 import com.app.int_a.giantbombforandroid.main.data.component.DaggerMainScreenComponent;
 import com.app.int_a.giantbombforandroid.main.data.module.MainScreenModule;
+import com.app.int_a.giantbombforandroid.main.model.Result;
 import com.app.int_a.giantbombforandroid.main.model.Video;
 
 import java.util.ArrayList;
@@ -22,9 +25,7 @@ import timber.log.Timber;
 
 public class MainActivity extends AppCompatActivity implements MainScreenContract.View {
 
-    ListView listView;
-    ArrayList<String> list;
-    ArrayAdapter<String> adapter;
+    ArrayList<Result> list = new ArrayList<>();
 
     // Objects for RecyclerView
     private RecyclerView recyclerView;
@@ -47,9 +48,6 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
             }
         });
 
-        listView = (ListView) findViewById(R.id.my_list);
-        list = new ArrayList<>();
-
         DaggerMainScreenComponent.builder()
                 .netComponent(((App) getApplicationContext()).getNetComponent())
                 .mainScreenModule(new MainScreenModule(this))
@@ -57,6 +55,10 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
 
         //Call the method in MainPresenter to make Network Request
         mainPresenter.loadVideo();
+
+        //list.add("https://www.giantbomb.com/api/image/scale_medium/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg");
+
+        Timber.d("Array size: " + list.size());
     }
 
     @Override
@@ -64,16 +66,21 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
         // Loop through the posts, get the title of the post, and add it to our list object
         // TODO: Simplify these references with a variable?
         for(int i = 0; i < video.getResults().size(); i++){
-            // TODO: add second for loop, or simplyfy and get rid of Video object
-            list.add(video.getResults().get(i).getSiteDetailUrl());
+            // TODO: add second for loop, or simplify and get rid of Video object
+            list.add(video.getResults().get(i));
             //list.add(video.get(i).getSiteDetailUrl());
             Timber.d("List item " + i + " = " + list.get(i));
         }
 
+        // RecyclerView implementation
+        recyclerView = (RecyclerView) findViewById(R.id.my_recycler_list);
+        recyclerLayoutManager = new GridLayoutManager(this, 2);
+        recyclerView.setLayoutManager(recyclerLayoutManager);
+        recyclerAdapter = new MainScreenRecyclerAdapter(list, this.getApplicationContext());
+        recyclerView.setAdapter(recyclerAdapter);
+        // set to true because all images will be the same size
+        recyclerView.setHasFixedSize(true);
 
-        //Create the array adapter and set it to the list
-        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
-        listView.setAdapter(adapter);
     }
 
     @Override
