@@ -1,19 +1,7 @@
 [
     {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -32,32 +20,12 @@
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -70,13 +38,5 @@
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\6cb460acd4ef19f1be8216b5876e8be4a059d0c4\\output\\res\\anim\\abc_popup_exit.xml"
     }
 ]

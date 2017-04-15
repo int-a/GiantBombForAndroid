@@ -71,8 +71,8 @@ public class NetModule {
         OkHttpClient.Builder client = new OkHttpClient.Builder();
         client.cache(cache);
 
-        // Add GiantBomb.com api key to request
-        // Add json parameter because all requests will expect json
+        // Adds GiantBomb.com api key to request
+        // Adds json parameter because all requests will expect json
         client.addInterceptor(new Interceptor() {
             @Override
             public Response intercept(Chain chain) throws IOException {

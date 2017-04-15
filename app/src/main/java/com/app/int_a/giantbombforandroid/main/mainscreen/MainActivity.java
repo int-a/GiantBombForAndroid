@@ -3,11 +3,7 @@ package com.app.int_a.giantbombforandroid.main.mainscreen;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.Toast;
 
 import com.app.int_a.giantbombforandroid.R;
@@ -55,8 +51,6 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
 
         //Call the method in MainPresenter to make Network Request
         mainPresenter.loadVideo();
-
-        //list.add("https://www.giantbomb.com/api/image/scale_medium/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg");
 
         Timber.d("Array size: " + list.size());
     }

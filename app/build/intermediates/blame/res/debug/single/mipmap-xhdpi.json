@@ -2,9 +2,5 @@
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "D:\\Development\\Android\\Projects\\GiantBombForAndroid_ListViewBaseline\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]
