@@ -60,10 +60,13 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
         // Loop through the posts, get the title of the post, and add it to our list object
         // TODO: Simplify these references with a variable?
         for(int i = 0; i < video.getResults().size(); i++){
-            // TODO: add second for loop, or simplify and get rid of Video object
-            list.add(video.getResults().get(i));
-            //list.add(video.get(i).getSiteDetailUrl());
-            Timber.d("List item " + i + " = " + list.get(i));
+            Result currentVideo = video.getResults().get(i);
+
+            // Filter out Premium videos since these would require authentication
+            if(currentVideo.getVideoType() != null && !currentVideo.getVideoType().equals("Premium")) {
+                list.add(currentVideo);
+                Timber.d("List item " + i + " = " + list.get(i));
+            }
         }
 
         // RecyclerView implementation
