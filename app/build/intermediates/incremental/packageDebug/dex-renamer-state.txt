@@ -1,4 +1,4 @@
-#Mon Apr 17 20:00:00 EDT 2017
+#Sat Apr 22 17:38:33 EDT 2017
 base.0=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

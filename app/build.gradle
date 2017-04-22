@@ -44,14 +44,19 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.0.1'
 
     //RxJava/RxAndroid - for reactive extensions
-    compile 'io.reactivex:rxjava:1.1.2'
-    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'io.reactivex:rxandroid:1.1.0' // was 1.1.0
+    //Retrofit Rx adapter
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
 
     //Dagger - for dependency injection
     compile 'com.google.dagger:dagger:2.2'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.2'
     provided 'javax.annotation:jsr250-api:1.0'
+
+    //Butter Knife - for view binding
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 
     // Timber - for logging
     compile 'com.jakewharton.timber:timber:4.5.1'

@@ -44,12 +44,12 @@
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\c8699b71b9c1d7d98634db1e57d85cd37b384be1\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
