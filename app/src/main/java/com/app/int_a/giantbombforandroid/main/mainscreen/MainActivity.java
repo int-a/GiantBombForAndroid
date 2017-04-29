@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.app.int_a.giantbombforandroid.R;
@@ -12,6 +14,7 @@ import com.app.int_a.giantbombforandroid.main.data.component.DaggerMainScreenCom
 import com.app.int_a.giantbombforandroid.main.data.module.MainScreenModule;
 import com.app.int_a.giantbombforandroid.main.model.Result;
 import com.app.int_a.giantbombforandroid.main.model.Video;
+import com.app.int_a.giantbombforandroid.main.util.RecyclerItemClickListener;
 
 import java.util.ArrayList;
 
@@ -76,6 +79,17 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
         recyclerView.setAdapter(recyclerAdapter);
         // set to true because all images will be the same size
         recyclerView.setHasFixedSize(true);
+
+        recyclerView.addOnItemTouchListener(
+                new RecyclerItemClickListener(this.getApplicationContext(), new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override public void onItemClick(View view, int position) {
+
+                        TextView videoText = (TextView) view.findViewById(R.id.video_title_view);
+                        String videoTitle = videoText.getText().toString();
+                        Timber.d("Recylcer Item was clicked, url: " + videoTitle);
+                    }
+                })
+        );
 
     }
 

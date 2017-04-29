@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_next.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a9239641c7d4da2433af2c74595090313757f834\\output\\res\\drawable-anydpi-v21\\exo_controls_next.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_edit_mode_logo.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a9239641c7d4da2433af2c74595090313757f834\\output\\res\\drawable-anydpi-v21\\exo_edit_mode_logo.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_fastforward.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a9239641c7d4da2433af2c74595090313757f834\\output\\res\\drawable-anydpi-v21\\exo_controls_fastforward.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_play.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a9239641c7d4da2433af2c74595090313757f834\\output\\res\\drawable-anydpi-v21\\exo_controls_play.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_pause.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a9239641c7d4da2433af2c74595090313757f834\\output\\res\\drawable-anydpi-v21\\exo_controls_pause.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_previous.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a9239641c7d4da2433af2c74595090313757f834\\output\\res\\drawable-anydpi-v21\\exo_controls_previous.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_rewind.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a9239641c7d4da2433af2c74595090313757f834\\output\\res\\drawable-anydpi-v21\\exo_controls_rewind.xml"
+    }
+]
