@@ -1,5 +1,6 @@
 package com.app.int_a.giantbombforandroid.main.mainscreen;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -30,6 +31,9 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
     private RecyclerView recyclerView;
     private RecyclerView.Adapter recyclerAdapter;
     private RecyclerView.LayoutManager recyclerLayoutManager;
+
+    // Constant key for video url string
+    public static final String VIDEO_URL = "com.app.int_a.giantbombforandroid.main.mainscreen.VIDEO_URL";
 
     @Inject
     MainScreenPresenter mainPresenter;
@@ -83,10 +87,13 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
         recyclerView.addOnItemTouchListener(
                 new RecyclerItemClickListener(this.getApplicationContext(), new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
-
-                        TextView videoText = (TextView) view.findViewById(R.id.video_title_view);
-                        String videoTitle = videoText.getText().toString();
-                        Timber.d("Recylcer Item was clicked, url: " + videoTitle);
+                        String videoUrl = list.get(position).getHdUrl();
+                        Timber.v("Video url: " + videoUrl);
+                        // Create intent to launch VideoActiviy with given video URL
+                        // TODO: Is this the right context to include?
+                        Intent intent = new Intent(view.getContext(), VideoActivity.class);
+                        intent.putExtra(VIDEO_URL, videoUrl);
+                        startActivity(intent);
                     }
                 })
         );

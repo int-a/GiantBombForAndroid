@@ -28,6 +28,10 @@
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\player_activity.xml",
+        "source": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\src\\main\\res\\layout\\player_activity.xml"
+    },
+    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },

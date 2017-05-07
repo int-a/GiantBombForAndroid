@@ -2196,14 +2196,16 @@ containing a value of this type.
         public static final int bottom=0x7f0b0038;
         public static final int buttonPanel=0x7f0b0044;
         public static final int cancel_action=0x7f0b0072;
-        public static final int card_list=0x7f0b0086;
-        public static final int card_view=0x7f0b0085;
+        public static final int card_list=0x7f0b008b;
+        public static final int card_view=0x7f0b008a;
         public static final int checkbox=0x7f0b0054;
         public static final int chronometer=0x7f0b007a;
         public static final int collapseActionView=0x7f0b0034;
         public static final int contentPanel=0x7f0b0047;
+        public static final int controls_root=0x7f0b0088;
         public static final int custom=0x7f0b004e;
         public static final int customPanel=0x7f0b004d;
+        public static final int debug_text_view=0x7f0b0087;
         public static final int decor_content_parent=0x7f0b005b;
         public static final int default_activity_button=0x7f0b0040;
         public static final int disableHome=0x7f0b0023;
@@ -2254,11 +2256,14 @@ containing a value of this type.
         public static final int notification_main_column=0x7f0b0077;
         public static final int notification_main_column_container=0x7f0b0076;
         public static final int parentPanel=0x7f0b0046;
+        public static final int player_view=0x7f0b0086;
         public static final int progress_circular=0x7f0b0015;
         public static final int progress_horizontal=0x7f0b0016;
         public static final int radio=0x7f0b0056;
+        public static final int retry_button=0x7f0b0089;
         public static final int right_icon=0x7f0b007d;
         public static final int right_side=0x7f0b0078;
+        public static final int root=0x7f0b0085;
         public static final int screen=0x7f0b002b;
         public static final int scrollIndicatorDown=0x7f0b004c;
         public static final int scrollIndicatorUp=0x7f0b0048;
@@ -2293,7 +2298,7 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f0b004b;
         public static final int textSpacerNoTitle=0x7f0b004a;
         public static final int texture_view=0x7f0b001f;
-        public static final int thumbnail=0x7f0b0087;
+        public static final int thumbnail=0x7f0b008c;
         public static final int time=0x7f0b0079;
         public static final int title=0x7f0b0043;
         public static final int titleDividerNoCustom=0x7f0b0052;
@@ -2302,7 +2307,7 @@ containing a value of this type.
         public static final int topPanel=0x7f0b004f;
         public static final int up=0x7f0b0018;
         public static final int useLogo=0x7f0b0028;
-        public static final int video_title_view=0x7f0b0088;
+        public static final int video_title_view=0x7f0b008d;
         public static final int withText=0x7f0b0037;
         public static final int wrap_content=0x7f0b002f;
     }
@@ -2358,11 +2363,12 @@ containing a value of this type.
         public static final int notification_template_media_custom=0x7f04002a;
         public static final int notification_template_part_chronometer=0x7f04002b;
         public static final int notification_template_part_time=0x7f04002c;
-        public static final int select_dialog_item_material=0x7f04002d;
-        public static final int select_dialog_multichoice_material=0x7f04002e;
-        public static final int select_dialog_singlechoice_material=0x7f04002f;
-        public static final int support_simple_spinner_dropdown_item=0x7f040030;
-        public static final int thumbnail_view=0x7f040031;
+        public static final int player_activity=0x7f04002d;
+        public static final int select_dialog_item_material=0x7f04002e;
+        public static final int select_dialog_multichoice_material=0x7f04002f;
+        public static final int select_dialog_singlechoice_material=0x7f040030;
+        public static final int support_simple_spinner_dropdown_item=0x7f040031;
+        public static final int thumbnail_view=0x7f040032;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -2401,7 +2407,18 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int apikey=0x7f060028;
         public static final int app_name=0x7f060029;
-        public static final int base_url=0x7f06002a;
+        public static final int audio=0x7f06002a;
+        public static final int base_url=0x7f06002b;
+        public static final int enable_random_adaptation=0x7f06002c;
+        public static final int error_drm_not_supported=0x7f06002d;
+        public static final int error_drm_unknown=0x7f06002e;
+        public static final int error_drm_unsupported_scheme=0x7f06002f;
+        public static final int error_instantiating_decoder=0x7f060030;
+        public static final int error_no_decoder=0x7f060031;
+        public static final int error_no_secure_decoder=0x7f060032;
+        public static final int error_querying_decoders=0x7f060033;
+        public static final int error_unsupported_audio=0x7f060034;
+        public static final int error_unsupported_video=0x7f060035;
         public static final int exo_controls_fastforward_description=0x7f060013;
         public static final int exo_controls_next_description=0x7f060014;
         public static final int exo_controls_pause_description=0x7f060015;
@@ -2409,9 +2426,18 @@ containing a value of this type.
         public static final int exo_controls_previous_description=0x7f060017;
         public static final int exo_controls_rewind_description=0x7f060018;
         public static final int exo_controls_stop_description=0x7f060019;
+        public static final int retry=0x7f060036;
+        public static final int sample_list_load_error=0x7f060037;
         public static final int search_menu_title=0x7f06001a;
+        public static final int selection_default=0x7f060038;
+        public static final int selection_default_none=0x7f060039;
+        public static final int selection_disabled=0x7f06003a;
         public static final int status_bar_notification_info_overflow=0x7f06001b;
-        public static final int video_thumbnail_description=0x7f06002b;
+        public static final int storage_permission_denied=0x7f06003b;
+        public static final int text=0x7f06003c;
+        public static final int unexpected_intent_action=0x7f06003d;
+        public static final int video=0x7f06003e;
+        public static final int video_thumbnail_description=0x7f06003f;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0800a1;
