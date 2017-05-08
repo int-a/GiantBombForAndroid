@@ -30,6 +30,7 @@
         </activity>
         <activity
             android:name="com.app.int_a.giantbombforandroid.main.mainscreen.VideoActivity"
+            android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.FullScreenTheme" >
         </activity>
     </application>
