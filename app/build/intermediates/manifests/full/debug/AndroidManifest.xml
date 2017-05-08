@@ -28,7 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.app.int_a.giantbombforandroid.main.mainscreen.VideoActivity" >
+        <activity
+            android:name="com.app.int_a.giantbombforandroid.main.mainscreen.VideoActivity"
+            android:theme="@style/AppTheme.FullScreenTheme" >
         </activity>
     </application>
 

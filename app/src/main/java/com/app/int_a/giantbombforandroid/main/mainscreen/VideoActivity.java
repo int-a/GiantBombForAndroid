@@ -156,20 +156,6 @@ public class VideoActivity extends AppCompatActivity {
         exoPlayer.setPlayWhenReady(true);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         /*
         surfaceView= (SurfaceView) findViewById(R.id.surfaceView);
 

@@ -30,7 +30,7 @@ public final class R {
         public static final int use_controller = 0x7f0100e4;
     }
     public static final class color {
-        public static final int exo_edit_mode_background_color = 0x7f0a001e;
+        public static final int exo_edit_mode_background_color = 0x7f0a001f;
     }
     public static final class dimen {
         public static final int exo_media_button_height = 0x7f070055;
@@ -84,12 +84,12 @@ public final class R {
     }
     public static final class style {
         public static final int ExoMediaButton = 0x7f08001e;
-        public static final int ExoMediaButton_FastForward = 0x7f0800d4;
-        public static final int ExoMediaButton_Next = 0x7f0800d5;
-        public static final int ExoMediaButton_Pause = 0x7f0800d6;
-        public static final int ExoMediaButton_Play = 0x7f0800d7;
-        public static final int ExoMediaButton_Previous = 0x7f0800d8;
-        public static final int ExoMediaButton_Rewind = 0x7f0800d9;
+        public static final int ExoMediaButton_FastForward = 0x7f0800d5;
+        public static final int ExoMediaButton_Next = 0x7f0800d6;
+        public static final int ExoMediaButton_Pause = 0x7f0800d7;
+        public static final int ExoMediaButton_Play = 0x7f0800d8;
+        public static final int ExoMediaButton_Previous = 0x7f0800d9;
+        public static final int ExoMediaButton_Rewind = 0x7f0800da;
     }
     public static final class styleable {
         public static final int[] AspectRatioFrameLayout = { 0x7f010006 };
