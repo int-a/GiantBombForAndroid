@@ -45,8 +45,11 @@ import timber.log.Timber;
 
 public class VideoActivity extends AppCompatActivity {
 
+    // Call all of this be injected with Dagger?
     private SimpleExoPlayer exoPlayer;
     private SimpleExoPlayerView simpleExoPlayerView;
+    private long playerPosition;
+    private String mp4Url;
 
 
     @Override
@@ -56,16 +59,18 @@ public class VideoActivity extends AppCompatActivity {
 
         // Get the Intent that started this activity and extract the video url
         Intent intent = getIntent();
-        String mp4Url = intent.getStringExtra(MainActivity.VIDEO_URL);
+        mp4Url = intent.getStringExtra(MainActivity.VIDEO_URL);
+        // Create an exoplayer instance and start playing video
+        buildPlayer(mp4Url);
 
+    }
+
+    private void buildPlayer(String mp4Url) {
         // Create a default TrackSelector
         Handler mainHandler = new Handler();
         BandwidthMeter bandwidthMeter = new DefaultBandwidthMeter();
         TrackSelection.Factory videoTrackSelectionFactory = new AdaptiveTrackSelection.Factory(bandwidthMeter);
         TrackSelector trackSelector = new DefaultTrackSelector(videoTrackSelectionFactory);
-
-        // Create a default LoadControl
-        LoadControl loadControl = new DefaultLoadControl();
 
         // Create the player
         exoPlayer = ExoPlayerFactory.newSimpleInstance(this, trackSelector); // no LoadControl?
@@ -154,40 +159,26 @@ public class VideoActivity extends AppCompatActivity {
             }
         });
         exoPlayer.setPlayWhenReady(true);
+    }
 
-
-        /*
-        surfaceView= (SurfaceView) findViewById(R.id.surfaceView);
-
-        String userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:40.0) Gecko/20100101 Firefox/40.0";
-        String url = "http://www.sample-videos.com/video/mp4/480/big_buck_bunny_480p_5mb.mp4";
-        Allocator allocator = new DefaultAllocator(minBufferMs);
-        MediaSource mediaSource = new ExtractorMediaSource(
-                Uri.parse(url),
-                new DefaultDataSourceFactory(this, userAgent, null),
-                new DefaultExtractorsFactory(), null, null);
-
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Timber.v("onStart()...");
         if (exoPlayer == null) {
-            exoPlayer = ExoPlayerFactory.newSimpleInstance(this, null);
+            Timber.v("No exoplayer instance, recreating...");
+            buildPlayer(mp4Url);
+            exoPlayer.seekTo(playerPosition);
         }
+    }
 
-
-        ExtractorSampleSource sampleSource = new ExtractorSampleSource( Uri.parse(url), dataSource, allocator,
-                BUFFER_SEGMENT_COUNT * BUFFER_SEGMENT_SIZE);
-
-        MediaCodecVideoTrackRenderer videoRenderer = new
-                MediaCodecVideoTrackRenderer(this, sampleSource, MediaCodecSelector.DEFAULT,
-                MediaCodec.VIDEO_SCALING_MODE_SCALE_TO_FIT);
-
-        MediaCodecAudioTrackRenderer audioRenderer = new MediaCodecAudioTrackRenderer(sampleSource, MediaCodecSelector.DEFAULT);
-
-        exoPlayer = ExoPlayer.Factory.newInstance(RENDERER_COUNT);
-        exoPlayer.prepare(videoRenderer, audioRenderer);
-        exoPlayer.sendMessage(videoRenderer,
-                MediaCodecVideoTrackRenderer.MSG_SET_SURFACE,
-                surfaceView.getHolder().getSurface());
-        exoPlayer.setPlayWhenReady(true);
-        */
+    @Override
+    protected void onStop(){
+        super.onStop();
+        Timber.v("onStop()...");
+        //TODO: pull player creation code into it's own method so it can be called here as well
+        playerPosition = exoPlayer.getCurrentPosition();
+        exoPlayer.release();
     }
 
     @Override
@@ -195,6 +186,5 @@ public class VideoActivity extends AppCompatActivity {
         super.onDestroy();
         Timber.v("onDestroy()...");
         exoPlayer.release();
-
     }
 }

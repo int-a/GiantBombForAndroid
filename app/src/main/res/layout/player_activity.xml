@@ -19,16 +19,18 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:keepScreenOn="true">
+    android:keepScreenOn="true"
+    android:background="#88000000">
 
     <com.google.android.exoplayer2.ui.SimpleExoPlayerView android:id="@+id/player_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#88000000"
+
         android:orientation="vertical">
 
         <TextView android:id="@+id/debug_text_view"
@@ -37,10 +39,11 @@
             android:paddingLeft="4dp"
             android:paddingRight="4dp"
             android:textSize="10sp"
-            tools:ignore="SmallSp"/>
+            tools:ignore="SmallSp"
+            android:visibility="gone"/>
 
         <LinearLayout android:id="@+id/controls_root"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:visibility="gone">
