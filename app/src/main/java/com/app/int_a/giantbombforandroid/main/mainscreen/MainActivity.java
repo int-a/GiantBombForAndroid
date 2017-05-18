@@ -1,6 +1,7 @@
 package com.app.int_a.giantbombforandroid.main.mainscreen;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.app.int_a.giantbombforandroid.BuildConfig;
 import com.app.int_a.giantbombforandroid.R;
 import com.app.int_a.giantbombforandroid.main.App;
 import com.app.int_a.giantbombforandroid.main.data.component.DaggerMainScreenComponent;
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
     private RecyclerView.LayoutManager recyclerLayoutManager;
 
     // Constant key for video url string
-    public static final String VIDEO_URL = "com.app.int_a.giantbombforandroid.main.mainscreen.VIDEO_URL";
+    public static final String URI_LIST_EXTRA = "com.app.int_a.giantbombforandroid.main.mainscreen.VIDEO_URL";
 
     @Inject
     MainScreenPresenter mainPresenter;
@@ -89,10 +91,13 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
                     @Override public void onItemClick(View view, int position) {
                         String videoUrl = list.get(position).getHdUrl();
                         Timber.v("Video url: " + videoUrl);
+                        Uri videoUris = Uri.parse(videoUrl + "?api_key=" + BuildConfig.GIANTBOMB_API_KEY);
+
                         // Create intent to launch VideoActiviy with given video URL
                         // TODO: Is this the right context to include?
                         Intent intent = new Intent(view.getContext(), VideoActivity.class);
-                        intent.putExtra(VIDEO_URL, videoUrl);
+                        intent.setAction(VideoActivity.ACTION_VIEW);
+                        intent.setData(videoUris);
                         startActivity(intent);
                     }
                 })
