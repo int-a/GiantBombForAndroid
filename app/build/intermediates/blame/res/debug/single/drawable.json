@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
