@@ -1,4 +1,7 @@
-#Wed May 17 20:18:34 EDT 2017
-base.0=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Mon May 29 22:11:46 EDT 2017
+base.0=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d353b983720acfbf26d01b91c5f3717719ee7557
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d53cfd700517922f6509d7c7eb38ffa57c1a921e\\classes.dex
+base.1=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d53cfd700517922f6509d7c7eb38ffa57c1a921e
+file.0=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d353b983720acfbf26d01b91c5f3717719ee7557\\classes.dex

@@ -33,6 +33,11 @@
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.FullScreenTheme" >
         </activity>
+        <activity
+            android:name="com.app.int_a.giantbombforandroid.main.SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme" >
+        </activity>
     </application>
 
 </manifest>

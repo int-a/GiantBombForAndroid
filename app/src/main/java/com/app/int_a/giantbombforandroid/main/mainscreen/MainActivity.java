@@ -1,18 +1,23 @@
 package com.app.int_a.giantbombforandroid.main.mainscreen;
 
 import android.content.Intent;
+import android.media.audiofx.BassBoost;
 import android.net.Uri;
+import android.preference.PreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.app.int_a.giantbombforandroid.BuildConfig;
 import com.app.int_a.giantbombforandroid.R;
 import com.app.int_a.giantbombforandroid.main.App;
+import com.app.int_a.giantbombforandroid.main.SettingsActivity;
 import com.app.int_a.giantbombforandroid.main.data.component.DaggerMainScreenComponent;
 import com.app.int_a.giantbombforandroid.main.data.module.MainScreenModule;
 import com.app.int_a.giantbombforandroid.main.model.Result;
@@ -62,6 +67,27 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
         mainPresenter.loadVideo();
 
         Timber.d("Array size: " + list.size());
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()) {
+            case R.id.preferences:
+                // Code to show SettingsActivity
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+                break;
+            default:
+                break;
+        }
+        return true;
     }
 
     @Override
@@ -117,4 +143,5 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
         // Show completed Toast message
         Toast.makeText(getApplicationContext(), "Complete", Toast.LENGTH_SHORT).show();
     }
+
 }

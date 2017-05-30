@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preference_list_divider_material.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\e2ee9eac80f5b5602670d5e2e495f46f5c651e61\\output\\res\\drawable\\preference_list_divider_material.xml"
+    },
+    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
