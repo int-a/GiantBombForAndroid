@@ -24,12 +24,12 @@
         "source": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\src\\main\\res\\layout\\player_activity.xml"
     },
     {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_list_fragment.xml",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_material.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\e2ee9eac80f5b5602670d5e2e495f46f5c651e61\\output\\res\\layout\\preference_material.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_widget_switch_compat.xml",
-        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a7a0b6d833605fe1ba50d4303bb6ae56c0eeb669\\output\\res\\layout\\preference_widget_switch_compat.xml"
-    },
-    {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Anthony\\.android\\build-cache\\3816e45dbcc06e979513c467c857bb72e2ec4436\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_widget_switch_compat.xml",
+        "source": "C:\\Users\\Anthony\\.android\\build-cache\\a7a0b6d833605fe1ba50d4303bb6ae56c0eeb669\\output\\res\\layout\\preference_widget_switch_compat.xml"
     },
     {
         "merged": "D:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_widget_checkbox.xml",

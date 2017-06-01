@@ -1,4 +1,4 @@
-#Tue May 30 19:26:34 EDT 2017
+#Wed May 31 21:50:49 EDT 2017
 base.0=D\:\\Development\\Android\\Projects\\GiantBombForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d353b983720acfbf26d01b91c5f3717719ee7557
 renamed.1=classes.dex
 renamed.0=classes2.dex

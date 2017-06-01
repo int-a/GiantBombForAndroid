@@ -7,7 +7,7 @@
         android:id="@+id/preferences"
         android:orderInCategory="100"
         app:showAsAction="always"
-        android:icon="@drawable/exo_controls_play"
+        android:icon="@drawable/ic_settings_white_24dp"
         android:title="Refresh"/>
 
 
