@@ -1,11 +1,13 @@
 package com.app.int_a.giantbombforandroid.main.mainscreen;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.audiofx.BassBoost;
 import android.net.Uri;
 import android.preference.PreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.preference.PreferenceManager;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
@@ -115,7 +117,23 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
         recyclerView.addOnItemTouchListener(
                 new RecyclerItemClickListener(this.getApplicationContext(), new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
-                        String videoUrl = list.get(position).getHdUrl();
+                        // Get current video quality setting
+                        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
+                        String videoQuality = sharedPref.getString("pref_video_quality", "HD");
+                        String videoUrl;
+
+                        switch(videoQuality) {
+                            case "Low":
+                                videoUrl = list.get(position).getLowUrl();
+                                break;
+                            case "High":
+                                videoUrl = list.get(position).getHighUrl();
+                                break;
+                            default:
+                                videoUrl = list.get(position).getHdUrl();
+                                break;
+                        }
+
                         Timber.v("Video url: " + videoUrl);
                         Uri videoUris = Uri.parse(videoUrl + "?api_key=" + BuildConfig.GIANTBOMB_API_KEY);
 

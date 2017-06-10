@@ -10,20 +10,12 @@ android:layout_width="match_parent">
         android:key="pref_video"
         android:title="@string/pref_video_title">
 
-        <CheckBoxPreference
-            android:key="pref_sync"
-            android:title="@string/pref_video_quality"
-            android:summary="@string/pref_summary_video_quality"
-            android:defaultValue="true" />
-
-        <!--
-        <DropDownPreference
+        <ListPreference
             android:key="pref_video_quality"
             android:title="@string/pref_video_quality"
             android:summary="@string/pref_summary_video_quality"
             android:entries="@array/pref_entries_video_quality"
             android:entryValues="@array/pref_entries_video_quality" />
-            -->
 
     </PreferenceCategory>
 
