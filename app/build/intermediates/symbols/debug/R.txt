@@ -1325,6 +1325,7 @@ int style Widget_AppCompat_Spinner_Underlined 0x7f090186
 int style Widget_AppCompat_TextView_SpinnerItem 0x7f090187
 int style Widget_AppCompat_Toolbar 0x7f090188
 int style Widget_AppCompat_Toolbar_Button_Navigation 0x7f090189
+int style preferenceTheme 0x7f09018a
 int[] styleable ActionBar { 0x7f010003, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024, 0x7f010062 }
 int styleable ActionBar_background 10
 int styleable ActionBar_backgroundSplit 12

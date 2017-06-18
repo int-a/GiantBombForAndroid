@@ -10,7 +10,7 @@ android:layout_width="match_parent">
         android:key="pref_video"
         android:title="@string/pref_video_title">
 
-        <ListPreference
+        <android.support.v7.preference.DropDownPreference
             android:key="pref_video_quality"
             android:title="@string/pref_video_quality"
             android:summary="@string/pref_summary_video_quality"

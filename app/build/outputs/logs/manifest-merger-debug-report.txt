@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\Andr
 		INJECTED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support:preference-v14:25.3.1] C:\Users\Anthony\.android\build-cache\e2ee9eac80f5b5602670d5e2e495f46f5c651e61\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:preference-v7:25.3.1] C:\Users\Anthony\.android\build-cache\a7a0b6d833605fe1ba50d4303bb6ae56c0eeb669\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Anthony\.android\build-cache\3816e45dbcc06e979513c467c857bb72e2ec4436\output\AndroidManifest.xml:29:5-20
@@ -63,17 +63,15 @@ ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\Andr
 	android:name
 		ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:19:19-64
 activity#com.app.int_a.giantbombforandroid.main.SettingsActivity
-ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:23:9-26:20
+ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:23:9-25:20
 	android:configChanges
 		ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:24:13-59
-	android:theme
-		ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:25:13-44
 	android:name
 		ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:23:19-56
 uses-permission#android.permission.INTERNET
-ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:29:5-67
+ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:28:5-67
 	android:name
-		ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:29:22-64
+		ADDED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml:28:22-64
 uses-sdk
 INJECTED from D:\Development\Android\Projects\GiantBombForAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:preference-v14:25.3.1] C:\Users\Anthony\.android\build-cache\e2ee9eac80f5b5602670d5e2e495f46f5c651e61\output\AndroidManifest.xml:20:5-44

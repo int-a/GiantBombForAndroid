@@ -3207,6 +3207,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f090187;
         public static final int Widget_AppCompat_Toolbar=0x7f090188;
         public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f090189;
+        public static final int preferenceTheme=0x7f09018a;
     }
     public static final class xml {
         public static final int preferences=0x7f060000;
