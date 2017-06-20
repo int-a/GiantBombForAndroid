@@ -1,0 +1,83 @@
+{
+	"error": "OK",
+	"limit": 100,
+	"offset": 0,
+	"number_of_page_results": 100,
+	"number_of_total_results": 11376,
+	"status_code": 1,
+	"results": [{
+			"api_detail_url": "http:\/\/www.giantbomb.com\/api\/video\/2300-11935\/",
+			"deck": "Rorie fights killer robots, Brad jams discs, Jeff breaks the law, and Jason can't put his phone away.",
+			"hd_url": "https:\/\/giantbomb-pdl.akamaized.net\/2017\/03\/18\/mc_upf_031717_4000.mp4",
+			"high_url": "https:\/\/giantbomb-pdl.akamaized.net\/2017\/03\/18\/mc_upf_031717_3200.mp4",
+			"low_url": "https:\/\/giantbomb-pdl.akamaized.net\/2017\/03\/18\/mc_upf_031717_1800.mp4",
+			"embed_player": "http:\/\/www.giantbomb.com\/videos\/embed\/11935\/",
+			"id": 11935,
+			"length_seconds": 7921,
+			"name": "Unprofessional Fridays: 03\/17\/2017",
+			"publish_date": "2017-03-17 17:33:00",
+			"site_detail_url": "http:\/\/www.giantbomb.com\/videos\/unprofessional-fridays-03172017\/2300-11935\/",
+			"url": "mc_upf_031717.mp4",
+			"image": {
+				"icon_url": "http:\/\/www.giantbomb.com\/api\/image\/square_avatar\/2926581-upf031717.jpg",
+				"medium_url": "http:\/\/www.giantbomb.com\/api\/image\/scale_medium\/2926581-upf031717.jpg",
+				"screen_url": "http:\/\/www.giantbomb.com\/api\/image\/screen_medium\/2926581-upf031717.jpg",
+				"small_url": "http:\/\/www.giantbomb.com\/api\/image\/scale_small\/2926581-upf031717.jpg",
+				"super_url": "http:\/\/www.giantbomb.com\/api\/image\/scale_large\/2926581-upf031717.jpg",
+				"thumb_url": "http:\/\/www.giantbomb.com\/api\/image\/scale_avatar\/2926581-upf031717.jpg",
+				"tiny_url": "http:\/\/www.giantbomb.com\/api\/image\/square_mini\/2926581-upf031717.jpg"
+			},
+			"user": "unastrike",
+			"video_type": "Premium",
+			"video_show": null,
+			"video_categories": [{
+					"api_detail_url": "http:\/\/www.giantbomb.com\/api\/video_category\/2320-10\/",
+					"id": 10,
+					"name": "Premium",
+					"site_detail_url": "http:\/\/www.giantbomb.com\/videos\/premium\/"
+				}
+			],
+			"youtube_id": null
+		}, {
+			"api_detail_url": "http:\/\/www.giantbomb.com\/api\/video\/2300-11933\/",
+			"deck": "Will this be the end of our robot nightmare or will we succumb to the onslaught of the dreaded boss rush?",
+			"hd_url": "https:\/\/giantbomb-pdl.akamaized.net\/2017\/03\/17\/mc_bluebombin_03172017_4000.mp4",
+			"high_url": "https:\/\/giantbomb-pdl.akamaized.net\/2017\/03\/17\/mc_bluebombin_03172017_3200.mp4",
+			"low_url": "https:\/\/giantbomb-pdl.akamaized.net\/2017\/03\/17\/mc_bluebombin_03172017_1800.mp4",
+			"embed_player": "http:\/\/www.giantbomb.com\/videos\/embed\/11933\/",
+			"id": 11933,
+			"length_seconds": 5700,
+			"name": "Blue Bombin': Mega Man 4 - Part 04",
+			"publish_date": "2017-03-17 16:18:00",
+			"site_detail_url": "http:\/\/www.giantbomb.com\/videos\/blue-bombin-mega-man-4-part-04\/2300-11933\/",
+			"url": "mc_bluebombin_03172017.mp4",
+			"image": {
+				"icon_url": "http:\/\/www.giantbomb.com\/api\/image\/square_avatar\/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg",
+				"medium_url": "http:\/\/www.giantbomb.com\/api\/image\/scale_medium\/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg",
+				"screen_url": "http:\/\/www.giantbomb.com\/api\/image\/screen_medium\/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg",
+				"small_url": "http:\/\/www.giantbomb.com\/api\/image\/scale_small\/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg",
+				"super_url": "http:\/\/www.giantbomb.com\/api\/image\/scale_large\/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg",
+				"thumb_url": "http:\/\/www.giantbomb.com\/api\/image\/scale_avatar\/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg",
+				"tiny_url": "http:\/\/www.giantbomb.com\/api\/image\/square_mini\/2926565-cp_megaman_04_part04.00_24_27_54.still001.jpg"
+			},
+			"user": "vinny",
+			"video_type": "Premium",
+			"video_show": {
+				"api_detail_url": "http:\/\/www.giantbomb.com\/api\/video_show\/2340-9\/",
+				"id": 9,
+				"title": "Blue Bombin'",
+				"position": 0,
+				"site_detail_url": "http:\/\/www.giantbomb.com\/shows\/blue-bombin\/"
+			},
+			"video_categories": [{
+					"api_detail_url": "http:\/\/www.giantbomb.com\/api\/video_category\/2320-10\/",
+					"id": 10,
+					"name": "Premium",
+					"site_detail_url": "http:\/\/www.giantbomb.com\/videos\/premium\/"
+				}
+			],
+			"youtube_id": null
+		}
+	],
+	"version": "1.0"
+}

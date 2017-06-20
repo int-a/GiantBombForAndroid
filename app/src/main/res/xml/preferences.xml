@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:title="@string/pref_title"
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+
+    <PreferenceCategory
+        android:key="pref_video"
+        android:title="@string/pref_video_title">
+
+        <android.support.v7.preference.DropDownPreference
+            android:key="pref_video_quality"
+            android:title="@string/pref_video_quality"
+            android:summary="@string/pref_summary_video_quality"
+            android:entries="@array/pref_entries_video_quality"
+            android:entryValues="@array/pref_entries_video_quality" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
